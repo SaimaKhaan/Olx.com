@@ -1,0 +1,378 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.main {
+    width: 100%;
+    background-color: #F7F8F8;
+    padding: 0% 0% 4% 0%;
+}
+
+.header-one {
+    display: flex;
+}
+
+.logo {
+    margin-left: 9%;
+    margin-top: 0.5%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #5E8FFE;
+}
+
+.top-nav {
+    padding-top: 7px;
+    margin-top: 0.5%;
+}
+
+.top-nav i {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.header-two {
+    display: flex;
+    position: absolute;
+    margin-left: 9.4%;
+    margin-top: 0.5%;
+}
+
+.first {
+    width: 20%;
+}
+
+.city-bar {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 16px;
+    background-color: white !important;
+    background: url('https://cdn3.iconfinder.com/data/icons/whatsapp-5/512/147_Search_Research_Basic_Ui-512.png') left center, url('https://cdn3.iconfinder.com/data/icons/user-interface-169/32/chevron-bottom-512.png') right center;
+    background-size: 25px;
+    background-repeat: no-repeat;
+    padding: 12px 30px 12px 50px;
+    outline: none;
+}
+
+.find-bar {
+    width: 200%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 16px;
+    background-color: white !important;
+    background: url('./images/search.png') right center;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    outline: none;
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-right: 600px;
+}
+
+.login {
+    margin-top: 15px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.login:hover {
+    margin-top: 15px;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+
+.btn-bg {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.btn-plus {
+    margin-left: -80px;
+    cursor: pointer;
+}
+
+.sell-text {
+    margin-top: 15px;
+    margin-left: 2px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.headimg {
+    /* margin-top: 50px; */
+    width: 100%;
+    height: 15.7rem;
+    background: url('./images/header2.jpg');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+
+.ad1 {
+    width: 728px;
+    height: 90px;
+    border: none !important;
+    border-right-style: solid;
+    background: url('./images/ad1.png');
+    margin-left: 27%;
+    margin-top: 1%;
+    cursor: pointer;
+}
+
+.main2 {
+    padding: 0.7rem;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 10%);
+}
+
+.header-four {
+    position: relative;
+    display: flex;
+}
+
+.header-three {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.categories {
+    margin-right: 1.6rem;
+}
+
+.drop {
+    text-transform: uppercase;
+    color: #002f34;
+    font-weight: 700;
+    font-size: 0.9rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.drop-icon {
+    margin-left: 0.3rem;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.items {
+    display: inline-block;
+    margin: 0 0.8rem;
+}
+
+.item-text   {
+    font-size: 0.9rem;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    color: #002f34;
+}
+
+
+.b384f4f3 {
+    padding: 2em 11rem;
+}
+
+.a88376c3 {
+    display: block;
+    font-size: 1.596rem;
+    color: #002f34;
+    margin-bottom: 0.8rem;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 300px;
+  font-family: arial;
+  border: black 1px solid;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.feat-btn {
+    background-color: #ffce32;
+    padding: 0.3rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    right: 10px;
+}
+
+.load-btn {
+    margin-top: -15px;
+    position: absolute;
+    font-weight: 800;
+    color: #002F34;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 13px;
+    left: 47%;
+    padding: 15px;
+    border: black 2px solid;
+}
+
+.load-btn:hover {
+    margin-top: -15px;
+    position: absolute;
+    font-weight: 800;
+    color: #002F34;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 13px;
+    left: 47%;
+    padding: 15px;
+    border: black 4px solid;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .main {
+        width: 600px;
+    }
+
+    .header-one {
+        width: 100%;
+        display: flex;
+        /* background-color: red; */
+        /* border: rgb(174, 0, 255) solid 1px; */
+    }
+    
+    .logo {
+        margin-left: 9%;
+        margin-top: 0.5%;
+        /* border: rgb(174, 0, 255) solid 1px; */
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    a:hover {
+        text-decoration: none;
+        color: #5E8FFE;
+    }
+    
+    .top-nav {
+        padding-top: 7px;
+        /* border: red solid 1px; */
+        margin-top: 0.5%;
+    }
+    
+    .top-nav i {
+        display: inline-block;
+        margin-left: 30px;
+    }
+    
+    .header-two {
+        width: 100%;
+        display: flex;
+        /* background-color: red; */
+        position: absolute;
+        margin-left: 9.4%;
+        margin-top: 0.5%;
+        /* border: rgb(174, 0, 255) solid 1px; */
+    }
+
+    .city-bar {
+        box-sizing: border-box;
+        border-radius: 5px;
+        border: 1px solid black;
+        font-size: 16px;
+        background-color: white !important;
+        background: url('https://cdn3.iconfinder.com/data/icons/whatsapp-5/512/147_Search_Research_Basic_Ui-512.png') left center, url('https://cdn3.iconfinder.com/data/icons/user-interface-169/32/chevron-bottom-512.png') right center;
+        background-size: 25px;
+        background-repeat: no-repeat;
+        padding: 12px 30px 12px 50px;
+        outline: none;
+    }
+    
+    .find-bar {
+        box-sizing: border-box;
+        border-radius: 5px;
+        border: 1px solid black;
+        font-size: 16px;
+        background-color: white;
+        /* padding: 12px 30px 12px 50px; */
+        outline: none;
+        margin-left: 20px;
+        padding-left: 10px;
+        padding-right: 600px;
+    }
+}
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+
+#footer2 {
+    background-color: #F7F8FA;
+    padding: 30px 0;
+}
+
+.footer-col{
+    padding: 0px 50px;
+}
+
+.link-text{
+    font-size:15px ;
+}
+.follow-link{
+    margin-left: 150%;
+    width: 100%;
+}
+.social-link{
+    margin-left: 150%;
+    display: flex;   
+    margin-top: 15px;  
+}
+.footer-col{
+    font-size: 18px;
+    color: black;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
